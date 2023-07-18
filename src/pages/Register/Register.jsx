@@ -1,14 +1,11 @@
-import React, { useEffect, useRef, useState, useContext } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import toast, { Toaster } from 'react-hot-toast';
 
 import { get, post } from '../../utility'
-import LoadingContext from '../../context/LoadingContext'
 import SubmitBtn from './../../components/SubmitBtn/SubmitBtn'
 
 export default function Register() {
-  const loadingContext = useContext(LoadingContext)
-
   const navigate = useNavigate()
 
   const [cities, setCities] = useState([])
@@ -32,20 +29,20 @@ export default function Register() {
   useEffect(() => {
     switch (formPage) {
       case "otpPage":
-        document.title = "کد تایید - اپل سرویس"
+        document.title = "کد تایید - ادیتو !"
         otpRef.current.focus()
         break;
 
       case "register":
-        document.title = "ثبت نام - اپل سرویس"
+        document.title = "ثبت نام - ادیتو !"
         break;
 
       case "login":
-        document.title = "ورود - اپل سرویس"
+        document.title = "ورود - ادیتو !"
         break;
 
       default:
-        document.title = "ورود - اپل سرویس"
+        document.title = "ورود - ادیتو !"
         break;
     }
   }, [formPage])

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 export default function Home() {
   useEffect(() => {
-    document.title = "سرویس تعمیر گوشی در محل - اپل سرویس"
+    document.title = "سرویس تعمیر گوشی در محل - ادیتو !"
   }, [])
 
   return (
