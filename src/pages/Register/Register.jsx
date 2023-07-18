@@ -189,11 +189,11 @@ export default function Register() {
             </svg>
           </div>
           <Link to={'/'}
-            className={`border border-blue-500 w-11 h-11 flex justify-center items-center rounded-full      
+            className={`border border-purple-500 w-11 h-11 flex justify-center items-center rounded-full      
             show-up
             md:hidden`}
           >
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="stroke-blue-500 w-7 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="stroke-purple-500 w-7 h-7">
               <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
             </svg>
           </Link>
@@ -237,7 +237,7 @@ export default function Register() {
           >
             حساب کاربری ندارید؟
             <button
-              className='text-blue-500 cursor-pointer select-none'
+              className='text-purple-500 cursor-pointer select-none'
               onClick={() => setFormPage('register')}
               disabled={registerLoadings.login}
             >
@@ -348,7 +348,7 @@ export default function Register() {
           >
             حساب کاربری دارید؟
             <button
-              className='text-blue-500 cursor-pointer select-none'
+              className='text-purple-500 cursor-pointer select-none'
               onClick={() => setFormPage('login')}
               disabled={registerLoadings.signin}
             >
@@ -395,7 +395,7 @@ export default function Register() {
             {
               prevPage === 'login' ? (
                 <button
-                  className='text-blue-500 cursor-pointer select-none'
+                  className='text-purple-500 cursor-pointer select-none'
                   onClick={() => setFormPage('login')}
                   disabled={registerLoadings.otp}
                 >
@@ -403,7 +403,7 @@ export default function Register() {
                 </button>
               ) : (
                 <button
-                  className='text-blue-500 cursor-pointer select-none'
+                  className='text-purple-500 cursor-pointer select-none'
                   onClick={() => setFormPage('register')}
                   disabled={registerLoadings.otp}
                 >
@@ -418,7 +418,7 @@ export default function Register() {
           >
             کدی دریافت نکردید؟
             <button
-              className='text-blue-500 cursor-pointer select-none'
+              className='text-purple-500 cursor-pointer select-none'
               onClick={generateAgainOtp}
               disabled={registerLoadings.otp}
             >
@@ -428,7 +428,7 @@ export default function Register() {
         </div>
       </div>
 
-      <div className="bg-blue-500 w-1/2 h-full hidden flex-col justify-between items-center pt-6 relative
+      <div className="bg-purple-500 w-1/2 h-full hidden flex-col justify-between items-center pt-6 relative
         md:flex">
         <img className='h-full w-full object-cover absolute top-0 z-10 brightness-50'
           src="https://ariavash.ir/fa/storage/2020/09/%D8%AA%D8%B9%D9%85%DB%8C%D8%B1%D8%A7%D8%AA-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%A8%D8%A7%D8%B2%D8%A7%D8%B1-%DA%A9%D8%A7%D8%B1-1200x900.jpg" alt="repair" />

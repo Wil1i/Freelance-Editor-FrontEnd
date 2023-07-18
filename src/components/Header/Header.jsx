@@ -16,7 +16,7 @@ export function Header() {
 
   return (
     <div className='fixed top-0 flex justify-center items-center w-full'>
-      <div className={`bg-blue-500 bg-opacity-80 w-full flex justify-between items-center p-3 pl-2.5 px-7 z-50 m-2 rounded-xl shadow-xl border-cyan-100 ${location.pathname == "/" && 'border-[1px]'}`}>
+      <div className={`bg-purple-500 bg-opacity-80 w-full flex justify-between items-center p-3 pl-2.5 px-7 z-50 m-2 rounded-xl shadow-xl border-cyan-100 ${location.pathname == "/" && 'border-[1px]'}`}>
         <div
           className="btn btn-ghost text-xl flex items-center relative lg:hidden"
           onClick={() => {

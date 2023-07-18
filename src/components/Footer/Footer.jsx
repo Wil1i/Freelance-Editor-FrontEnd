@@ -14,25 +14,25 @@ export default function Footer() {
           sm:flex-row">
           <div className="w-full flex flex-col items-center gap-3 p-9
           sm:w-1/3 lg:w-1/4">
-            <span className='text-blue-500 text-3xl sansbold mb-3'>ادیتو !</span>
+            <span className='text-purple-500 text-3xl sansbold mb-3'>ادیتو !</span>
             <span className='text-slate-700 text-justify text-sm'>دیگه پیدا کردن ادیتور خوب، سخت نیست! به راحتی ویدیو هات رو بسپر به بهترین ادیتور ها.</span>
           </div>
           <div className="w-full flex flex-col items-center gap-3 p-9
           sm:w-1/3 lg:w-1/4">
-            <span className='text-blue-500 text-3xl sansbold mb-3'>راه های ارتباطی</span>
+            <span className='text-purple-500 text-3xl sansbold mb-3'>راه های ارتباطی</span>
             <span className='text-slate-700 text-sm'>contact@edito.ir</span>
             <a href="https://discord.gg/asldkasdk" className='underline text-slate-700 text-sm'>چنل دیسکورد</a>
           </div>
           <div className="w-full hidden flex-col items-center gap-3 p-9 lg:flex
           sm:w-1/3 lg:w-1/4">
-            <span className='text-blue-500 text-3xl sansbold mb-3'>لینک ها</span>
-            <Link to='/' className='text-slate-700 hover:text-blue-500 underline text-sm'>توسعه برنامه‌نویسان</Link>
-            <Link to='/' className='text-slate-700 hover:text-blue-500 underline text-sm'>همکاری با ما</Link>
-            <Link to='/' className='text-slate-700 hover:text-blue-500 underline text-sm'>ارتباط با ما</Link>
+            <span className='text-purple-500 text-3xl sansbold mb-3'>لینک ها</span>
+            <Link to='/' className='text-slate-700 hover:text-purple-500 underline text-sm'>توسعه برنامه‌نویسان</Link>
+            <Link to='/' className='text-slate-700 hover:text-purple-500 underline text-sm'>همکاری با ما</Link>
+            <Link to='/' className='text-slate-700 hover:text-purple-500 underline text-sm'>ارتباط با ما</Link>
           </div>
           <div className="w-full flex flex-col items-center gap-3 p-9
           sm:w-1/3 lg:w-1/4">
-            <span className='text-blue-500 text-3xl sansbold mb-3'>دنبال کنید</span>
+            <span className='text-purple-500 text-3xl sansbold mb-3'>دنبال کنید</span>
             <div className="w-full flex justify-center items-center gap-6">
               <FooterIcon
                 color='text-rose-600'
@@ -68,7 +68,7 @@ export default function Footer() {
         <span className='border-none border-slate-400 pl-5 text-sm sm:border-l'>تمام حقوق این سایت محفوظ می باشد ©</span>
         <div className='flex justify-center items-center gap-3'>
           <span className='text-sm'>زیر مجموعه</span>
-          <a href='https://apple-service.ir/' className='hover:text-blue-500 underline text-sm'>wil1i.ir</a>
+          <a href='https://apple-service.ir/' className='hover:text-purple-500 underline text-sm'>wil1i.ir</a>
         </div>
       </div>
     </>
